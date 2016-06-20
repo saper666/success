@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/rl"
+    android:background="@color/greena400">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/oblmain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/lightgrey100"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            android:transitionName="actionBar" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="10dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin_ll"
+            android:paddingLeft="@dimen/activity_horizontal_margin_ll"
+            android:paddingRight="@dimen/activity_horizontal_margin_ll"
+            android:paddingTop="@dimen/activity_vertical_margin_ll"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/samorazvitie"
+                android:id="@+id/samorazvitie"
+                android:layout_marginTop="@dimen/activity_button_margin_top" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:text="@string/biznes"
+                android:id="@+id/biznes" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:text="@string/psihologia"
+                android:id="@+id/psihologia" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:text="@string/zdorovie"
+                android:id="@+id/zdorovie" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:text="@string/otnoshenia"
+                android:id="@+id/otnoshenia" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:text="@string/prochee"
+                android:id="@+id/prochee" />
+
+        </LinearLayout>
+            </FrameLayout>
+</ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

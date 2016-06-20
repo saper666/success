@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/st"
+            android:id="@+id/action_star"
+            android:icon="@mipmap/ic_bookmark_border_black_24dp"
+            yourapp:showAsAction="always"
+            android:visible="true"
+            />
+        <item
+            android:title="@string/sh"
+            android:id="@+id/action_share"
+            android:icon="@mipmap/ic_share_black_24dp"
+            yourapp:showAsAction="always"
+            android:visible="true"
+            />
+        <item
+            android:title="@string/tt"
+            android:id="@+id/action_edit"
+            android:icon="@mipmap/ic_format_size_black_24dp"
+            yourapp:showAsAction="always"
+            android:visible="true"
+            />
+    </group>
+</menu>

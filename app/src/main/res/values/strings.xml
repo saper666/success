@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Точка роста</string>
+    <string name="tt">Изменить размер текста</string>
+    <string name="sh">Поделиться</string>
+    <string name="st">Избранное</string>
+    <!-- Основное меню-->
+    <string name="newjournal">Начать</string>
+    <string name="lections">Продолжить</string>
+    <string name="events">Истории успеха</string>
+    <string name="information">Информация</string>
+    <string name="elect">Избранное</string>
+    <!-- Новый журнал-->
+    <string name="samorazvitie">Саморазвитие</string>
+    <string name="biznes">Бизнес</string>
+    <string name="psihologia">Психология</string>
+    <string name="zdorovie">Здоровье</string>
+    <string name="otnoshenia">Отношения</string>
+    <string name="prochee">Прочее</string>
+    <!-- Информация-->
+    <string name="aboutus">О проекте</string>
+    <string name="contakts">Оценить</string>
+    <string name="placesbuy">Версия без рекламы</string>
+    <string name="submit">Мы ВКонтакте</string>
+    <string name="udevs">Другие приложения</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-8093927171995161/2118266939</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

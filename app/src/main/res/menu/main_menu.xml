@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="@android:string/search_go"
+        android:icon="@android:drawable/ic_menu_search"
+        yourapp:showAsAction="always|collapseActionView"
+
+        yourapp:actionViewClass="android.support.v7.widget.SearchView"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_edit"
+            android:icon="@mipmap/ic_format_size_black_24dp"
+            yourapp:showAsAction="always"
+            android:visible="true"
+            />
+    </group>
+</menu>

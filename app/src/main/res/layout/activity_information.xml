@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/rl"
+
+    tools:context=".MainActivity"
+    android:background="@color/greena400">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/oblmain"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/lightgrey100"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            android:transitionName="actionBar" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin_ll"
+            android:paddingLeft="@dimen/activity_horizontal_margin_ll"
+            android:paddingRight="@dimen/activity_horizontal_margin_ll"
+            android:paddingTop="@dimen/activity_vertical_margin_ll"
+            android:id="@+id/linearLayout"
+            android:layout_below="@+id/toolbar">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/aboutus"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:id="@+id/aboutus"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/button4"
+                android:layout_alignEnd="@+id/button4" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/contakts"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:id="@+id/contakts"
+                android:layout_below="@+id/aboutus"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/placesbuy"
+                android:textSize="@dimen/text_size"
+                android:id="@+id/placesbuy"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:layout_below="@+id/contakts"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="@dimen/text_size"
+                android:text="@string/submit"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:id="@+id/submit"
+                android:layout_below="@+id/placesbuy"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="@dimen/text_size"
+                android:text="@string/udevs"
+                android:layout_marginTop="@dimen/activity_button_margin_top"
+                android:id="@+id/udevs"
+                android:layout_below="@+id/placesbuy"
+                android:layout_centerHorizontal="true" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
